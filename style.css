@@ -1,0 +1,86 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+/* n1 */
+
+button {
+    padding: 50px 70px;
+    font-size: 30px;
+    border: none;
+    background-color: rgb(184, 128, 236);
+    color: white;
+    text-shadow: 10px -5px 6px black;
+    letter-spacing: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 7px 12px black, inset 10px 7px 12px white;
+    margin-bottom: 200px;
+}
+
+button:hover {
+    text-shadow: 1px 1px 1px palevioletred;
+    box-shadow: inset 10px 5px 10px black, inset -8px -7px 10px white;
+
+}
+
+
+
+/* n2 */
+.card {
+    margin-bottom: 200px;
+    /* background-image: url(tree.jpg);
+    background-repeat: no-repeat; */
+}
+
+img {
+    width: 600px;
+    height: 300px;
+}
+
+h6 {
+    font-size: 30px;
+}
+
+
+.card:hover {
+    box-shadow: 20px 20px 20px 20px rgb(255, 153, 170), -20px -20px 20px 20px rgb(255, 153, 170);
+    border-radius: 30px;
+}
+
+img:hover {
+    border-radius: 30px 30px 0 0;
+}
+
+
+/* n3 */
+
+
+p {
+  
+    box-shadow: none;
+    font-size: 140px;
+    color: red;
+    letter-spacing: 20px;
+    cursor: pointer;
+    animation-name:ChangeColor;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+   
+   /* animation-fill-mode: forwards; */
+
+
+}
+
+@keyframes ChangeColor{
+from{
+    color: white;
+}
+
+to{
+    color: red;
+}
+
+}
